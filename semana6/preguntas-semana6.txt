@@ -1,0 +1,19 @@
+Pregunta 1: ¿Qué es JSON?
+Respuesta: B
+Opción: Un formato de intercambio de datos usado entre aplicaciones
+Justificación: Según lo explicado en la Clase 29, JSON (JavaScript Object Notation) es un formato liviano para intercambiar datos entre aplicaciones, utilizado ampliamente en APIs y servidores. No es un sistema operativo, editor de código ni navegador.
+
+Pregunta 2: ¿Qué permite express.json() en una aplicación Express?
+Respuesta: B
+Opción: Leer datos enviados en formato JSON en una petición
+Justificación: Como se vio en la Clase 29 y 30, express.json() es un middleware que permite a Express interpretar y extraer automáticamente los datos enviados en formato JSON dentro del cuerpo (body) de una petición HTTP, colocándolos en req.body.
+
+Pregunta 3: ¿Dónde se encuentran los datos enviados en una petición POST cuando usamos Express?
+Respuesta: B
+Opción: req.body
+Justificación: En las clases 29 y 30 los profesores explicaron que al usar express.json(), los datos que el cliente envía en una petición POST (por ejemplo, un formulario o un JSON) se almacenan en el objeto req.body. Así se pueden leer valores como req.body.nombre o req.body.mensaje.
+
+Pregunta 4: ¿Cuál de las siguientes opciones representa correctamente un objeto JSON?
+Respuesta: C
+Opción: { "nombre": "Juan" }
+Justificación: En la Clase 29 se enseñó que un objeto JSON válido debe tener las claves entre comillas dobles y los valores string también entre comillas dobles. La opción C cumple esta regla. Las otras opciones usan comillas incorrectas o formato inválido.
